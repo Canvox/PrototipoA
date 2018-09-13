@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.dusktech.com.prototipoa.ImageActivity"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/questionNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dusk"
+        android:background="@null"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/guess_country"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/row1LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:text="Button"
+            android:textSize="10sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:background="@color/blue"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Button"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:background="@color/blue"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Button"
+            android:textSize="10sp"
+            android:layout_marginRight="5sp"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:background="@color/blue"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Button"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

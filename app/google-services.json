@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "223673915342",
+    "firebase_url": "https://prototipo-80a92.firebaseio.com",
+    "project_id": "prototipo-80a92",
+    "storage_bucket": "prototipo-80a92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223673915342:android:91413633431a2ba3",
+        "android_client_info": {
+          "package_name": "net.dusktech.com.prototipoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223673915342-88vme8f15mvupa4bgskg6g40h354dgm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.dusktech.com.prototipoa",
+            "certificate_hash": "9deb7edf057eef0884db74702ba30836e2237183"
+          }
+        },
+        {
+          "client_id": "223673915342-2d2erohvlmprjq4erctlppbff51ghkcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa_eJFq2_n_-62i5zdyREiG4QQA5ax_iU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223673915342-2d2erohvlmprjq4erctlppbff51ghkcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

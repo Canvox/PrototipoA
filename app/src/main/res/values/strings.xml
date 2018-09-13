@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PrototipoA</string>
+    <string name="question">Number of Question / Score ?</string>
+    <string name="guess_country">Question Goes Here</string>
+    <string name="title_activity_copia_start_main">CopiaStartMainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
